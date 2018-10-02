@@ -7,7 +7,8 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessagesComponent } from './messages/messages.component';
 import { AppRoutingModule } from './app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { HeadComponent } from './head/head.component'; 
+import { HeadComponent } from './head/head.component';
+import { NapoComponent } from './napo/napo.component'; 
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HeadComponent } from './head/head.component';
     HeroDetailComponent,
     MessagesComponent,
     DashboardComponent,
-    HeadComponent
+    HeadComponent,
+    NapoComponent
   ],
   imports: [
     BrowserModule,
