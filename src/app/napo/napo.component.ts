@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NapoComponent implements OnInit {
 
-    const heading = "Napo Wildlife Center"; 
+     heading = "Napo Wildlife Center"; 
 
   constructor() { }
 
