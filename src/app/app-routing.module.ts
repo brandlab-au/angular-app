@@ -11,7 +11,7 @@ const routes: Routes = [
   { path: 'detail/:id', component: HeroDetailComponent },
   { path: 'heroes', component: HeroesComponent }
 ];
-
+    
 
 @NgModule({
   imports: [ RouterModule.forRoot(routes) ],
