@@ -1,23 +1,31 @@
 
     <div class="jumbotron">
         <h1>{{title}}</h1> 
+        <h5>{{description}}</h5>
     <div class="row">
         <div class="col-sm">
-            <img alt="nice" width="500" height="450" src="../assets/alberto.png"><nav><a routerLink="/dashboard">Dashboard</a></nav>
+            <img alt="Galapgaos" width="500" height="450" src="../assets/alberto.png"><nav><a routerLink="/dashboard">Dashboard</a></nav>
             
          </div><!--close first col-->
         <div class="col-sm">
             <div class="row">
-                <img alt="nice" width="350" height="200" src="../assets/elaicheesecake.png">
-                <nav><a routerLink="/heroes">Heroes</a>
+                <img alt="Galapgaos" width="350" height="200" src="../assets/elaicheesecake.png">
+                <nav><a routerLink="/yachts">Yachts</a>
                     </nav>
             </div>
         
             <div class="row">
-              <img alt="nice" width="350" height="200" src="../assets/vadonut.png"><nav><a routerLink="/napo">Napo</a></nav>
+              <img alt="Galapgaos" width="350" height="200" src="../assets/vadonut.png"><nav><a routerLink="/napo">Napo</a></nav>
             </div>
    
         </div><!--close 2ns col-->
     
     </div><!--close of big row-->
     </div><!--jubotron-->
+<div>
+  <label>name:
+    <input [(ngModel)]="name" placeholder="name">
+  </label>
+</div>
+<label>Answer to name : {{name}}</label>
+<!--    <h2>{{name | upper case}}</h2>-->

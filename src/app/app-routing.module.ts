@@ -11,7 +11,7 @@ const routes: Routes = [
     { path: '', component: HeadComponent },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'detail/:id', component: HeroDetailComponent },
-  { path: 'heroes', component: HeroesComponent },
+  { path: 'yachts', component: HeroesComponent },
     { path: 'napo', component: NapoComponent }
 ];
     

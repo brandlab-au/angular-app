@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./head.component.css']
 })
 export class HeadComponent implements OnInit {
-
+title = "Galapagos yachts last Min";
+description = "OLA Overland Latin America best deals";
   constructor() { }
 
   ngOnInit() {
