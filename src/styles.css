@@ -1,8 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
-
+@media (min-width: 576px) {
+  .jumbotron {
+    padding-bottom: 0;
+      padding-top: 0;
+}
+}
 h5 {
-    color: olive;
+    color: peru;
 }
 h8 {
     color: olive;
