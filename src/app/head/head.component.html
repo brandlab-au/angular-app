@@ -2,50 +2,42 @@
 <head>
    
 </head>
- <ul class="nav nav-pills">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Active</a>
-  </li>
-  <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-    <div class="dropdown-menu">
-      <a class="dropdown-item" href="#">OLA</a>
-      <a class="dropdown-item" href="#">Another action</a>
-      <a class="dropdown-item" href="#">Something else here</a>
-      <div class="dropdown-divider"></div>
-      <a class="dropdown-item" href="#">Separated link</a>
-    </div>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#">Disabled</a>
-  </li>
-</ul>
-    
+ 
     <div class="d-flex">
   <div class="dropdown mr-1">
     <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">
-      Offset
+      OLA
+   
     </button>
     <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
-      <a class="dropdown-item" href="#">Action</a>
-      <a class="dropdown-item" href="#">Another action</a>
-      <a class="dropdown-item" href="#">Something else here</a>
+      <a class="dropdown-item" routerLink="/yachts">Boats</a>
+      <a class="dropdown-item" routerLink="/napo">Jungle</a>
+      <a class="dropdown-item" routerLink="/dashbord">Contact</a>
     </div>
   </div>
+    
+         <div class="dropdown mr-1">
+    <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">
+      Galapagos
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+      <a class="dropdown-item" routerLink="/yachts">Last min</a>
+      <a class="dropdown-item" routerLink="/dashboard">Price</a>
+      <a class="dropdown-item" routerLink="/dashboard">Classes</a>
+    </div>
+  </div>
+        
   <div class="btn-group">
-    <button type="button" class="btn btn-secondary">Reference</button>
+    <button type="button" class="btn btn-secondary">Info</button>
     <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
       <span class="sr-only">Toggle Dropdown</span>
     </button>
     <div class="dropdown-menu" aria-labelledby="dropdownMenuReference">
-      <a class="dropdown-item" href="#">Action</a>
-      <a class="dropdown-item" href="#">Another action</a>
-      <a class="dropdown-item" href="#">Something else here</a>
+      <a class="dropdown-item" routerLink="/dashboard">Blogs</a>
+      <a class="dropdown-item" routerLink="/napo">Jungle</a>
+      <a class="dropdown-item" routerLink="/yachts">Booking</a>
       <div class="dropdown-divider"></div>
-      <a class="dropdown-item" href="#">Separated link</a>
+      <a class="dropdown-item" routerLink="#">Last Min</a>
     </div>
   </div>
 </div>  
@@ -63,10 +55,10 @@
         <h5>{{description}}</h5>
     <div class="row">
         <div class="col-sm">
-            <div class="centered">Amazon best</div>
+            <div class="cc centered">Amazon best</div>
             <a routerLink="/dashboard">
             <img alt="Galapgaos" width="400" height="200" src="../assets/alberto.png"> 
-            </a>
+            </a> 
             
          </div><!--close first col-->
         <div class="col-sm">
@@ -98,17 +90,16 @@
               </div>
         </div><!--close 3ns col-->
     </div><!--close of big row-->
-        <div>
+      <br>
   <label>name:
-    <input [(ngModel)]="name" placeholder="name">
+    <input [(ngModel)]="name" placeholder="please type your name">
   </label>
-</div>
+<br>
 <label>Answer to name : {{name}}</label>
 <!--    <h2>{{name | upper case}}</h2>-->
-      </div>
-    </div><!--jubotron-->
-
-    
+    </div><!--close container-->
+</div><!--jubotron-->
+ 
   </body>
 </html>
    
