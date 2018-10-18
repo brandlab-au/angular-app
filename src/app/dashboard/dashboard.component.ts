@@ -12,10 +12,13 @@ import { HttpClient } from '@angular/common/http';
 
 export class DashboardComponent implements OnInit {
     title ='Data from flickr';
-  private url="https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=16eebc5dba8a6e445aa2fdf076a24f45&tags=ecuador&format=json&nojsoncallback=1&auth_token=72157672471900847-6f3bf33dfd382ecb&api_sig=0c6d58fb1598dcacb792a703b3518953";
+    tag="ecuador";
+  private url="https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=16eebc5dba8a6e445aa2fdf076a24f45&tags="+this.tag+"&format=json&nojsoncallback=1&auth_token=72157672471900847-6f3bf33dfd382ecb&api_sig=0c6d58fb1598dcacb792a703b3518953";
    data: any = {};
   heroes: Hero[] = [];
 
+
+    
   constructor(private heroService: HeroService,
               private http : HttpClient){
               

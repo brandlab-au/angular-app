@@ -4,6 +4,12 @@
   padding-right: 20px;
   padding-bottom: 20px;
 }
+.center {
+    margin: auto;
+    width: 60%;
+    border: 1px solid grey;
+    padding: 40px;
+}
 [class*='col-']:last-of-type {
   padding-right: 0;
 }
