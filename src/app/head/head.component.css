@@ -1,8 +1,12 @@
 h1 {
-    text-align: center; 
+    text-align: left; 
     margin-bottom: 10px;
-    color: cornflowerblue;
-    font-size: 40px;
+    color: black;
+    font-size: 30px;
+    
+}
+h2{
+    text-align: center;
     
 }
 .cc {

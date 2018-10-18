@@ -12,4 +12,11 @@ h5 {
 h8 {
     color: olive;
 }
+.content{
+    align-content: center;
+    padding-left: 30px;
+}
+h4{
+    text-align: center;
+}
 
